@@ -1,0 +1,163 @@
+﻿html{font:normal normal normal 12px Verdana,Geneva,sans-serif;}
+body{margin:0;padding:0;color:#666;font-size-adjust:none;font-style:normal;font:normal normal normal 12px Arial;line-height:normal;}
+html,body{-webkit-text-size-adjust:none;}
+form,img,ul,ol,li,dl,dt,dd,p{margin:0;padding:0;border:0;}
+li{list-style-type:none;}
+em{font-style:normal;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+img{-ms-interpolation-mode:bicubic;}
+input,button,select,textarea{outline:none;font-family:arial;margin:0px;padding:0px;}
+textarea{resize:none;vertical-align:middle;font-size:12px;border:#ddd solid 1px;}
+.focal_txt{height:26px;color:#666;width:262px;border:#ddd solid 1px;padding:0px 0 0 5px;line-height:26px;border:#DDD solid 1px;background:url(/focalpricetest1/es/static.focalprice.com/Images/common/common.png?xcv=0) 0 0 no-repeat;}
+select{border:#ddd solid 1px;padding:2px;color:#666;font-size:11px;}
+.f10{font-size:10px;font-family:arial;}
+.f11{font-size:11px;}
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f22{font-size:22px;}
+.f24{font-size:24px;}
+.lh20{line-height:20px;}
+.lh30{line-height:30px;}
+.lh40{line-height:40px;}
+.lh60{line-height:60px;}
+.cred{color:#c20000}
+.cff{color:#fff}
+.c99{color:#999}
+.c00{color:#000}
+.c010{color:#010101}
+.c66{color:#666}
+.c33{color:#333}
+.cf50{color:#ff5a00;}
+.c65a{color:#65a000}
+.cblue,.csteelblue{color:#114ea6;}
+.cgreen{color:#56A600}
+.c9d6{color:#9d6338;}
+.cff5{color:#ff5d00;}
+.c004{color:#004088;}
+.c221{color:#221815;}
+.c6d7{color:#6d7179;}
+.c200{color:#c20000;}
+.c383{color:#383838;}
+.c175{color:#17569b;}
+.c5a5{color:#5a5a5a;}
+.cf06{color:#f06b1e;}
+a:link{color:#666666;text-decoration:none;}
+a:visited{color:#666666;text-decoration:none;}
+a:hover{color:#000;text-decoration:underline;}
+.ulink,.ulink:link,.ulink:visited,.nlink:hover{text-decoration:underline;}
+.nlink,.nlink:link,.nlink:visited,.ulink:hover{text-decoration:none;}
+.c00:link,.c00:visited,.c00:hover{color:#000;text-decoration:none}
+.cf50:link,.cf50:visited,.cf50:hover{color:#ff5a00;text-decoration:none}
+.cf50ulin:link,.cf50ulin:visited,.cf50ulin:hover{color:#ff5a00;text-decoration:underline}
+.cblueulin:link,.cblueulin:visited,.cblueulin:hover{color:#114ea6;text-decoration:underline}
+.cbluenon:link,.cblueno:visited,.cblueno:hover{color:#004088;text-decoration:underline;font-size:11px;}
+.cblueno:link,.cblueno:visited,.cblueno:hover{color:#004088;text-decoration:underline;font-size:11px;}
+.cblue:link,.cblue:visited,.cblue:hover{color:#114ea6;text-decoration:none}
+.c004:link,.c004:visited,.c004:hover{color:#004088;text-decoration:underline;}
+.mauto{margin:0 auto;}
+.pl10{padding-left:10px;}
+.pb5{padding-bottom:5px;}
+.pb10{padding-bottom:10px;}
+.pb8{padding-bottom:8px;}
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl20{padding-left:20px;}
+.pl40{padding-left:40px;}
+.pl38{padding-left:38px;}
+.pt10{padding-top:10px;}
+.pt28{padding-top:28px;}
+.pt20{padding-top:20px;}
+.pt5{padding-top:5px;}
+.pr10{padding-right:10px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt40{margin-top:40px;}
+.mt5{margin-top:5px;}
+.mb5{margin-bottom:5px;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.mr60{margin-right:60px;}
+.mr5{margin-right:5px;}
+.mr7{margin-right:7px;}
+.mr12{margin-right:7px;}
+.ml20{margin-left:20px;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:-51px;}
+.ml40{margin-left:40px;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.fleft{float:left;}
+.fright{float:right;}
+.alignC{text-align:center}
+.alignL,.topic_title.alignL{text-align:left;}
+.alignR{text-align:right}
+.fb{font-weight:bold}
+.db{display:block}
+.l150{line-height:150%}
+.l200{line-height:200%}
+.l14{line-height:14px}
+.l15{line-height:15px}
+.l18{line-height:18px}
+.l20{line-height:20px}
+.l22{line-height:22px}
+.hide{display:none}
+.border1{border:#ececec solid 1px}
+.border_t1_dc{border-top:1px solid #dcdcdc;}
+.textline{text-decoration:line-through;}
+.bluelinks,.bluelinks:link,.bluelinks:visited,.bluelinks:hover,.bluebtn,.orangelinks,.orangelinks:link,.orangelinks:visited,.orangelinks:hover,.orangebtn,.graylinks,.graylinks:link,.graylinks:visited,.graylinks:hover,.graybtn{height:29px;line-height:29px;overflow:visible;width:auto;padding:0px 15px;font-size:12px;font-family:Verdana;color:#fff;border:none;text-decoration:none;text-align:center;background:url(/focalpricetest1/es/static.focalprice.com/Images/btn/btn_blue.jpg?xcv=0) repeat-x;cursor:pointer}
+.bluebtn.inblock,.bluelinks.inblock,.orangelinks.inblock{display:inline-block}
+.orangebtn,.orangelinks,.orangelinks:link{background:url(/focalpricetest1/es/static.focalprice.com/Images/btn/btn_orange.jpg?xcv=0) repeat-x;}
+.graybtn,.graylinks,.graylinks:link{background:url(/focalpricetest1/es/static.focalprice.com/Images/btn/btn_gray.jpg?xcv=0) repeat-x;}
+.bluelinks.dblock,.orangelinks.dblock{display:block}
+.uploadlinks:link{border:1px solid #5BB1E5;-webkit-border-radius:2px;color:#114EA6;-moz-border-radius:2px;border-radius:2px;cursor:pointer;font-size:11px;text-align:center;margin-right:16px;height:27px;line-height:27px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/post.png?xcv=0) 5px 5px no-repeat;outline:0px;padding:0 8px 0 25px;display:inline-block}
+.uploadlinks:visited{border:1px solid #eee;}
+.focalerrorTips{margin:0 15px 10px 15px;padding:0 10px;line-height:25px;height:25px;}
+.focalerrorTips.errorTxt{background:#fff8eb;border:#f4c978 solid 1px;color:#ff5a00}
+.txterror_wapper,.txterror_wapper_left{height:auto;margin:0 0 0 0;position:relative;}
+.txterror_wapper .error_ico,.txterror_wapper .error_ico_up,.txterror_wapper.errotTips .error_ico,.txterror_wapper.errotTips .error_ico_up{display:block;position:absolute;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=0) no-repeat;}
+.txterror_wapper.errotTips .error_ico{left:0px;top:8px;background-position:0 -463px;width:5px;height:7px;}
+.txterror_wapper .error_ico{background-position:-14px -463px;width:5px;height:7px;}
+.txterror_wapper .txterror,.txterror_wapper.errotTips .txterror{border:#e1e1e1 solid 1px;left:0;top:5px;margin:4px 0 0 0;padding:5px 10px;color:#999;background:#f1f1f1;float:left;font-size:11px;}
+.txterror_wapper.errotTips .txterror{border:#ffb552 solid 1px;background:#FFF9F1;color:#FD7A05;}
+.txterror_wapper .error_ico_up{left:15px;top:0px;background-position:-20px -463px;width:7px;height:5px;}
+.txterror_wapper.errotTips .error_ico_up{background-position:-6px -463px;}
+.reg_txt{width:255px;padding:4px 0 0 5px;line-height:25px;margin:0;height:21px;border:#ddd solid 1px;background:url(/focalpricetest1/es/static.focalprice.com/Images/common/common.png?xcv=0) 0 0 no-repeat;}
+.reg_txt.w175{width:175px;}
+.minloginerrorTips{background:#fff9f1 url(/focalpricetest1/es/static.focalprice.com/Images/common/fv_onError.gif?xcv=0) 5px 6px no-repeat;display:none;padding-left:30px;border:#ffb552 solid 1px;color:#fd7a05;height:33px;line-height:33px;}
+.txterror_wapper_left span{display:block;position:absolute;top:5px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=0) no-repeat;background-position:-14px -463px;width:5px;height:7px;z-index:5}
+.txterror_wapper_left .txterror{border:#e1e1e1 solid 1px;z-index:4;left:4px;top:0px;margin:0;padding:5px 10px;color:#999;background:#f1f1f1;float:left;font-size:11px;position:relative}
+.txterror_wapper_left.errorTips span{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=0) no-repeat;background-position:0 -463px;}
+.txterror_wapper_left.errorTips .txterror{border:#ffb552 solid 1px;background:#FFF9F1;color:#FD7A05;}
+.nodata{line-height:50px;text-align:center;padding-bottom:30px}
+#tooptip{height:35px;width:100%;width:500px;margin:5px auto 0 auto;}
+.ac_results{padding:0px;border:1px solid #ddd;background-color:white;overflow:hidden;z-index:99999;}
+.ac_results ul{width:100%;list-style-position:outside;list-style:none;padding:0;margin:0;}
+.ac_results li{margin:0px;padding:2px 5px;cursor:default;display:block;font:menu;font-size:12px;line-height:20px;overflow:hidden;clear:both;}
+.ac_loading{background:white url('/focalpricetest1/es/static.focalprice.com/Images/indicator.gif?xcv=0') right center no-repeat;}
+.ac_odd{background-color:#fff;}
+.ac_over{background-color:#EFEFEF;}
+.keyname{display:block;float:left;_clear:both;_line-height:20px}
+.keyname strong{color:#555555;}
+.searchProNum{display:block;float:right;}
+.Keyword{color:#FF5A00;}
+#autocompletePanel{position:absolute;background-color:#fff;border:1px solid #ddd;left:6px;position:absolute;top:31px;width:446px;z-index:30;}
+#autocompletePanel li{display:block;text-align:left;height:20px;line-height:20px;background-color:#fff;cursor:default;padding:0 5px;clear:both;}
+#autocompletePanel .keyinfo{border-bottom:1px dashed #f1f1f1}
+#autocompletePanel .selected{background-color:#eee;color:#333;overflow:hidden;border-bottom:1px solid #e1e1e1}
+#autocompletePanel .unselected{background-color:#fff;color:#666;border-bottom:1px dashed #f1f1f1}
+#autocompletePanel .keyextend{display:block;float:right;color:#FF5A00;_clear:both;_line-height:20px}
+#autocompletePanel .unselected .keyextend{color:#FF5A00;}
+#autocompletePanel .selected .keyextend{color:#133E79;}
+#autocompletePanel .s_close{background-color:#edf1fa;border-bottom:1px solid #d5e1ed;height:20px;padding:2px 5px;}
+#autocompletePanel .s_close h5{width:345px;display:inline;font-weight:bold;}
+#autocompletePanel .s_close span{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=0) 2px -225px no-repeat;padding-left:15px;margin-left:249px;text-decoration:underline;cursor:pointer;font-weight:bold;}
+#lookingforPro h5{background-color:#edf1fa;border-bottom:1px solid #d5e1ed;height:20px;padding:2px 5px;line-height:20px;font-weight:bold}
+#lookingforPro .lookingforPro_list{width:75px;height:50px;padding:10px 0;margin:5px 0 10px 12px;display:inline-block;text-align:center}
+#lookingforPro .lookingforPro_list img{border:#ddd solid 1px;}
+
+.derecha{ float:right;}

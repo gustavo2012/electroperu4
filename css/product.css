@@ -1,0 +1,416 @@
+﻿/*图片处理*/
+.sel li em,.sel li.active em,.list_sort a span,.worldwide,.payment .pay_01{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=2251afe668) no-repeat;}
+.pro_main{width:1200px;margin:0 auto;height:auto;overflow:hidden;position:relative}
+.explain_l,.explain_l{height:auto;overflow:hidden;}
+.detail{position:relative;}
+.detail{width:980px;}
+.detail_info_left{width:550px;height:525px;float:left; position:relative; z-index:5}
+.detail_info_right{width:410px;float:right;padding:0; position:relative; z-index:2;}
+/*.explain_l{width:770px;}*/
+.explain_r{width:200px;}
+/*detail_lib start*/
+#preview{float:none;margin:0px;text-align:center;width:350px;}
+.jqzoom{width:550px;height:426px;position:relative;border:#d5d6db solid 1px;overflow:hidden; z-index:4;}
+.list_h li{float:left;}
+#spec_n5{width:552px;height:85px;padding-top:10px;overflow:hidden;}
+#spec_left{background:url(../images/detail/left.gif) no-repeat right;width:8px;height:77px;float:left;cursor:pointer;margin-top:0px;}
+#spec_right{background:url(../images/detail/right.gif) no-repeat left;width:8px;height:77px;float:left;cursor:pointer;margin-top:0px;}
+#spec_list{width:532px;float:left;margin-left:2px;text-align:left;overflow:hidden;position:relative; height:77px;}
+#imgs{width:1200px; height:77px; position:absolute; left:0px; top:0px;}
+#spec_list ul{margin:0px;padding:0px;}
+#spec_list div{margin-top:0;margin-left:-30px;*margin-left:0;}
+#spec_list ul li{float:left;margin:0;padding:0 5px;display:inline;height:77px;}
+#spec_list ul li img{border:1px solid #ccc;width:94px;height:73px; cursor:pointer}
+#spec_list ul li img.select{border:1px solid #F60;}
+.jqzoom{position:relative;padding:0;}
+.zoomdiv{z-index:100;position:absolute;top:1px;left:0px;width:411px;height:318px;background:url(../images/proLoading.gif) #fff no-repeat center center;border:1px solid #e4e4e4;display:none;text-align:center;overflow:hidden;}
+.zoomdiv .zoomImg{position:absolute; z-index:80; left:0px; top:0px;} 
+.bigimg{width:860px;height:666px;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:45px;height:35px;border:1px solid #aaa;background:#FEDE4F 50% top no-repeat;opacity:0.5;-moz-opacity:0.5;-khtml-opacity:0.5;filter:alpha(Opacity=50);cursor:pointer;}
+.proLoadingWarp{width:115px;height:35px;z-index:100;left:50%;top:50%;margin-left:-58px;margin-top:-18px;visibility:hidden; position: absolute;}
+.zoomdiv .ZoomLoadingWarp{width:860px;height:666px;z-index:100;left:0px;top:0px;margin-left:-58px;margin-top:-18px; position:absolute;}
+.zoomdiv .ZoomLoadingWarp .ZoomLoadingIn{width:115px;height:35px;z-index:100;left:50%;top:50%;margin-left:-58px;margin-top:-18px; background:#333; position: absolute;}
+.proLoadingBg{width:115px;height:35px;line-height:35px;background:#000;  position: absolute;z-index:50; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter:alpha(opacity=50);opacity:0.5; border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;}
+.proLoading{width:115px;height:35px;line-height:35px;color:#fff;z-index:55;background:url(../images/proLoading.gif) no-repeat 10px center; text-align:left; text-indent:30px; position:relative}
+#preview .proimg_Prev,#preview .proimg_Next{position:absolute;display:none;cursor:pointer; width:34px; height:34px; top:117px; z-index:5;background:url(/focalpricetest1/es/static.focalprice.com/images/detail/pro_ico.png?xcv=2251b968e2) 0 0 no-repeat}
+#preview .proimg_Prev{left:1px; background-position: 0 -77px;}
+#preview .proimg_Next{right:1px; background-position: 0 -114px;}
+/*2012-03-29*/
+.pro_Bar{height:35px; width:350px; background:url(/focalpricetest1/es/static.focalprice.com/images/detail/picbarbg.jpg?xcv=2251b968e2) 0 -35px repeat-x; clear:both;display:none}
+.pro_Bar .picView{ height:35px; width:174px; background:url(/focalpricetest1/es/static.focalprice.com/images/detail/picbarbg.jpg?xcv=2251b968e2) 0 0 no-repeat; border-right:#d6d6d6 solid 1px;}
+.pro_Bar .playVideo{ height:35px; width:174px; background:url(/focalpricetest1/es/static.focalprice.com/images/detail/picbarbg.jpg?xcv=2251b968e2) right -70px no-repeat;}
+.pro_Bar .picView a,.pro_Bar .playVideo a{ display:block; height:35px; width:174px; font-size:11px; line-height:35px; color:#aaa; text-align:center;}
+.pro_Bar .picView a{ background:url(/focalpricetest1/es/static.focalprice.com/images/detail/pro_ico.png?xcv=2251b968e2) 35px 10px no-repeat;}
+.pro_Bar .playVideo a{ background:url(/focalpricetest1/es/static.focalprice.com/images/detail/pro_ico.png?xcv=2251b968e2) 35px -25px no-repeat;}
+.pro_Bar .picView a:hover,.pro_Bar .playVideo a:hover{ text-decoration:none}
+.addthis_fp{padding-top:5px;}
+.addthis_default_style li{float:left; margin-right:5px; height:21px; position:relative}
+.addthis_default_style li.focalShre{ width:60px; height:21px; background:url(../images/detail/detail.png) -337px -492px no-repeat}
+.addthis_default_style li.focalFacebook{ width:16px; height:21px; background:url(../images/detail/detail.png) -332px 2px no-repeat}
+.addthis_default_style li.focalTwiner{ width:16px; height:21px; background:url(../images/detail/detail.png) -358px 2px no-repeat}
+.addthis_default_style li.focalEmail{ width:16px; height:21px; background:url(../images/detail/detail.png) -384px 2px no-repeat; margin-right:0px;}
+.addthis_default_style li.focalgooglejia{ width:16px; height:21px; background:url(../images/detail/detail.png) -307px -498px no-repeat;}
+.addthis_default_style li.focalShre a,.addthis_default_style li.focalFacebook a,.addthis_default_style li.focalTwiner a,.addthis_default_style li.focalEmail a,.addthis_default_style li.focalgooglejia a{ height:21px; display:block; width:16px;}
+.addthis_default_style li.focalShre a{ width:61px;}
+.addthis_default_style .focalShre_TipsWarp{position:absolute;top:30px;_top:25px;*top:25px;  right:0px; width:278px; height:120px; display:none}
+.addthis_default_style .focalShre_TipsWarp .focalShreico{ position:absolute; width:9px; height:6px; z-index:5; top:0px; left:145px; background:url(/focalpricetest1/es/static.focalprice.com/images/detail/focalShre_TipsWarp_ico.png?xcv=2251c7ea14) 0 0 no-repeat;}
+.addthis_default_style .focalShre_Tips{ position:absolute; width:246px; height:auto;background:#fffbf2; border:#d6cfbf solid 1px;padding:15px; border-radius:5px; z-index:4; top:5px; left:0px;}
+/*detail_lib end*/
+.tags_warp{position:relative;width:1200px;height:31px;}
+.tags_warp .tags{height:28px;border:#ddd solid 1px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/tag_bg.jpg?xcv=2251c7ea13) repeat-x;width:1198px;position:absolute;left:0;top:0;z-index:2;line-height:28px;}
+.tags_warp .tags h3{padding-left:11px;width:140px;}
+.tags_warp .tags ul{width:1040px;height:auto;overflow:hidden;}
+.tags_warp .tags ul li{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/tags_ico.gif?xcv=2251c7ea13) left 12px no-repeat;margin-right:10px;padding-left:10px;}
+.tags_warp .tags ul li a{color:#0041a0;}
+.tags_warp .tags ul li em{color:#c20000}
+.tags_warp .tag_t{height:30px;width:1199px;background:#fff;border-bottom:#f3f3f3 solid 1px;position:absolute;left:1px;top:0;z-index:1;}
+.detail_info_right h1{font-size:12px;padding:0;font-weight:bold;border-bottom:#dbdbdb solid 1px;padding-bottom:10px;}
+.cont_top{line-height:35px; position:relative; z-index:45;border-bottom:#f5f5f5 solid 1px;padding-top:5px;}
+.timeico{}
+.sku em{color:#000;}
+.review_Warp{position:relative; }
+.review_Warp .review{height:35px; padding:0 10px;width:166px;}
+.average_rating_l{font-size:11px;}
+.review .ico{background:url(/focalpricetest1/es/static.focalprice.com/images/detail/downmenu_ico.gif?xcv=2251b968e2) 0 0 no-repeat;width: 13px;height: 11px; margin-right:2px; display: inline-block;vertical-align:middle}
+.cont_top .review_Warp .review.hoverClass{ background:url(/focalpricetest1/es/static.focalprice.com/images/detail/reviewbg.png?xcv=2251b96e1c) 0 0 no-repeat;}
+.review a{color:#666;}
+.review_Warp .reviewTips{background: #FFFBF3 url(/focalpricetest1/es/static.focalprice.com/images/detail/reviewTipsbg.gif?xcv=2251b96df9) 0 0 no-repeat;border: #D6CEBF solid 1px;border-top: none;left: 0px;top: 30px; height:auto; width:196px;
+border-radius: 0px 0px 5px 5px; position:absolute; padding:15px 10px;line-height:15px; display:none}
+.review_Warp .reviewTips p{ font-size:11px;}
+.review_Warp .reviewTips p a{ color:#114ea7;}
+.ins_box{line-height:22px;overflow:hidden; border-bottom:#f5f5f5 solid 1px; padding:5px 0;margin-bottom:7px;}
+.stock{width:380px;}
+.worldwide{width:170px;height:40px;background-position:0 -275px;padding-left:20px;color:#56a600}
+.stock em.green{color:#56a600}
+.payment{width:210px;height:32px;line-height:32px;overflow:hidden;font-family: arial;}
+.payment .payname{height:32px;line-height:32px;}
+.payment .pay_01{width:60px;height:32px;background-position:0 -615px;display:inline-block;}
+.infobody_left,.infobody_right{height:auto;overflow:hidden}
+.infobody_left{width:585px;}
+.infobody_right{width:316px;height:auto;overflow:hidden}
+.price_box{width:420px;height:290px;position:relative;}
+.sale_off{position:absolute;top:40px;left:-13px;width:141px;height:47px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/save.png?xcv=2251b968e2) no-repeat; z-index:15;display:none; line-height:35px; font-weight:bold; color:#fff; font-size:18px; text-indent:13px;}
+.price_box_r,.price_box_l{display:none;}
+.price_box_m{width:420px;height:179px;}
+.price_box_m .price_list{height:48px;line-height:19px;padding:10px;}
+.price_list span.mr5{margin-right:5px;}
+.price_list span.mr20{margin-right:20px;}
+.price_list span a{position:relative;display:inline-block;padding:0 15px 0 5px;z-index:3}
+.price_list span a.active{border:#ddd solid 1px;background:#fff;border-bottom:none;}
+.price_list span a em{width:7px;height:4px;background:url(../Images/detail//smenu_ico.gif) 0px 0px no-repeat;position:absolute;right:3px;top:13px;}
+.add_box{height:45px;width:550px;}
+.add_box_l{width:235px;height:30px;text-align:center;padding-top:5px; margin-bottom:15px;}
+.add_box_r,.end_price{height:35px;}
+.add_to_Card{width:195px;height:28px;background:url(../img/addtocart.png) 0 0 no-repeat;}
+.add_to_Card.unuse{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/addtocart.png?xcv=2451b968e2) 0 -29px no-repeat;}
+.add_to_wish_list,.add_to_drop_ship{width:176px;height:25px;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2351b968e8);}
+.add_to_drop_ship{background-position:0 -372px;}
+.add_to_wish_list{background-position:0 -398px;}
+.price_list{border-bottom:#f5f5f5 solid 1px; padding:5px 0;}
+.lagueSelectWarp{ float:left; height:30px; line-height:30px; padding-left:10px; width:139px;}
+.lagueSelectWarp i{ font-style:normal;}
+.lh30{line-height:30px;}
+.lagueSelectWarp.hoverClass{ background:url(/focalpricetest1/es/static.focalprice.com/images/detail/langueSelectbg.png?xcv=2251b96daa) no-repeat;}
+.lagueSelectWarp .lagueSelect{position:absolute;width:200px; height:auto; overflow:hidden;background:#fffbf3 url(/focalpricetest1/es/static.focalprice.com/images/detail/selbg.gif?xcv=2251b968e2) 0 0 no-repeat; border:#d6cebf solid 1px; border-top:none;left:0px; top:28px; border-radius:0px 0px 5px 5px; display:none;z-index:1}
+.lagueSelectWarp span,.lagueSelectWarp span a{color:#c20000;}
+.lagueSelectWarp span sup{font-size:11px;}
+#nowprice{margin-top:-4px}
+.price_list span .lagueSelect a{line-height:20px;font-size:11px;height:20px;background:none;float:left;width:110px;display:block;border:none;padding:0;padding-left:20px;margin:0;}
+#langueSelectProduct dl{ margin:0px; padding:10px;}
+#langueSelectProduct dl dd{ height:21px; line-height:21px; width:180px; text-align:left;font-family:arial;}
+#langueSelectProduct dl dd a{ color:#666; text-decoration:underline}
+#langueSelectProduct dl dd span{ width:60px; float:left; text-align:center; color:#000;  font-weight:bold}
+.quantity{height:30px;line-height:23px; margin-bottom:10px;}
+.quantity span{display:block;height:23px;width:50px;margin-right:5px;}
+.quantity span.w45{width:45px;}
+.quantity a{display:block;margin-right:5px;width:17px;height:15px;margin-top:4px;}
+.quantity a.add{width:17px;height:15px;background:url(../img/detail.png) -34px -58px no-repeat;cursor:pointer;}
+.quantity a.add.un{background:url(../Images/detail/detail.png) -51px -58px no-repeat;cursor:default;}
+.quantity a.reduce{width:17px;height:15px;background:url(../Images/detail/detail.png?xcv=2251b03f85) -17px -58px no-repeat;cursor:pointer;}
+.quantity a.reduce.un{width:17px;height:15px;background:url(../img/detail.png) 0 -58px no-repeat;cursor:default;}
+.quantity .num_txt{width:38px;height:21px;background:url(../Images/detail/detail.png?xcv=2251b03f85) -271px 0 no-repeat;line-height:21px;text-align:center;border:#c8c7c7 solid 1px;margin-right:5px;}
+.add_box_l .end_price{height:40px;line-height:40px;font-size:15px;width:200px;}
+.add_box_l .end_price em{color:#ae0000}
+.buymore{height:20px;line-height:20px;margin-bottom:10px}
+.cont_top .diggs {font-size:11px; color:#FF5A00;font-family:arial}
+.cont_top .diggs em{color:#ff5a00}
+.pro_right_m{width:200px;display: block;margin-top:8px;display:none}
+#digDescription{position: absolute;width: 210px;left: 196px;}
+.exlinks{padding:10px 0; border-top:#f5f5f5 solid 1px; border-bottom:#dbdbdb solid 1px; margin-bottom:10px;}
+.exlinks a{color:#666;font-size:12px;margin-right:20px;}
+.detail_list{width:768px;height:auto;overflow:hidden;border-top:#1b61af solid 2px;border-bottom:#ddd solid 1px;border-right:#ddd solid 1px;border-left:#ddd solid 1px;}
+.detail_list .detail_list_h{height:26px;line-height:26px;width:100%;background:url(/focalpricetest1/es/static.focalprice.com/Images/index/hotitem_h_bg.jpg?xcv=2251b968e3) 0 0 repeat-x;}
+.detail_list_h .detail_list_h_txt{width:790px;padding-left:10px;}
+.detail_list_h_txt.w600{width:380px;}
+.detail_list_h .detail_list_h_top{width:150px;position:relative;}
+.detail_list_h_top.w320{width:320px;}
+.detail_list_h .detail_list_h_top a.topurl{display:inline-block;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/top_ico.gif?xcv=2251be5d48) 0 10px no-repeat;font-size:11px;padding-left:10px;color:#0041a0}
+.detail_list_h .detail_list_h_top ul{width:114px;position:absolute;top:9px;left:0;}
+.detail_list_h_top ul li{width:17px;height:20px;background:url(../Images/detail/detail.png) 0 -129px no-repeat;line-height:17px;cursor:pointer;text-align:center;font-size:11px;color:#000;float:left;margin-right:1px;}
+.detail_list_h_top ul li.current{width:17px;height:20px;background:url(../Images/detail/detail.png) -18px -129px no-repeat;color:#fff}
+.detail_list_h_txt a.cblue,.detail_list_h_top a.cblue,.questmore a.cblue,.reviewmore a.cblue{color:#0041a0;text-decoration:underline;font-size:11px;display:inline}
+.detail_list_h_txt a.cblue em,.detail_list_h_top a.cblue em,.questmore a.cblue em,.reviewmore a.cblue em{color:#c20000}
+.detail_list_h_txt a.f12{font-size:12px;}
+.pl20{padding-left:20px;}
+.detail_list .detail_list_m{padding:15px;width:738px;}
+.detail_list .detail_list_m.p015{padding:0 15px 15px 15px;}
+.detail_list_m ul{margin-bottom:10px;}
+.detail_list_m ul li{margin-right:18px;height:120px;}
+.detail_list_m ul li.w155{width:155px;}
+.detail_list_m ul li.w25{width:25px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/addico.jpg?xcv=2251c7ea14) 0 48px no-repeat;}
+.detail_list_m ul li span,.add_all_to_cart{margin-bottom:10px;}
+.add_all_to_cart{width:135px;height:28px;background:url(../Images/detail/detail.png) 0 -74px no-repeat;}
+.add_all_to_wish_list{width:135px;height:26px;background:url(../Images/detail/detail.png) 0 -102px no-repeat;}
+.description ul.tabs{width:770px;height:28px;}
+.description ul.tabs li{line-height:28px;padding:0 10px;height:28px;color:#000;background:url(../img/tabs_bg.jpg) repeat-x;margin-right:1px;cursor:pointer;}
+.description ul.tabs li.active{background:url(../img/tabs_active.jpg) repeat-x;color:#fff;}
+.description .description_m{line-height:180%;height:auto;padding:20px;overflow:hidden;border-top:#1b61af solid 2px;border-bottom:#ddd solid 1px;border-right:#ddd solid 1px;border-left:#ddd solid 1px;}
+.description_m a.red{color:#c20000;text-decoration:underline}
+.description_m ul { padding-left:16px;}
+.description_m ul li { list-style-type:disc;}
+.tags_txt{padding:3px 0 0 5px;height:18px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/text_bg.jpg?xcv=2251be5d48) repeat-x;width:242px;border:#ddd solid 1px;}
+.tags_sub{width:52px;height:23px;background:url(../Images/detail/detail.png) -152px -35px no-repeat;border:0;cursor:pointer}
+.sortby_box{height:36px;line-height:36px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/dash.gif?xcv=2251be5d48) 0 bottom repeat-x;}
+.reviews_list{border-bottom:#ddd solid 1px;padding:10px 0;}
+.reviews_list .PostTitle{line-height:40px;}
+.reviews_list .reviews_list_h,.reviews_list .reviews_list_hIndex{line-height:21px;padding-bottom:10px;float:left;width:200px;}
+.reviews_list .reviews_list_hIndex{float:right;}
+.reviews_list_h .postBy{padding-right:5px;}
+.reviews_list .reviews_list_hIndex .star_Warp,.reviews_list_h .Allstarts_w{width:180px;}
+.reviews_list .reviews_list_h .cblue{border:none;}
+.reviews_list .reviews_list_m,.reviews_list .reviews_list_mIndex{line-height:21px;padding-bottom:10px;width:528px;float:right;margin-right:10px;}
+.reviews_list .reviews_list_m.w460,.reviews_list .reviews_list_mIndex.w460{width:460px}
+.retag span{cursor:pointer}
+.reviews_list_m .retag span.cblue,.review_content_c .retag span.cblue{color:#114EA6;text-decoration:underline;border:none}
+.reviews_list .reviews_list_mIndex{float:left;word-break:break-all;}
+.reviews_list_h .verified{width:87px;height:14px;display:inline-block;cursor:pointer;background:url(../Images/detail/detail.png) 0 -152px no-repeat;}
+.detail_list_m h6{height:35px;line-height:35px;}
+.detail_list_m h6 a{color:#0041a0;text-decoration:underline}
+.detail_list_m .addborder a{color:#0041a0;text-decoration:underline}
+.detail_list_m h6.addborder{border-bottom:#ddd solid 1px;border-width:0px 0px 1px 0px;}
+.detail_list_m ul.bbsdot li{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/dash.gif?xcv=2251be5d48) 0 bottom repeat-x;padding:5px;height:auto;}
+.detail_list_m ul.bbsdot li span{float:right;}
+.search_m_l .search_m_main{border:#ddd solid 1px;border-top:#0041a0 solid 2px;padding:18px 15px 20px 15px;}
+.thread_table{width:100%;}
+.thread_table td{padding:5px 0;}
+.thread_table td.col_l{width:100px;}
+.title_txt{width:366px;height:18px;line-height:21px;padding:3px 0 0 5px;border:#ddd solid 1px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/text_bg.jpg?xcv=2251be5d48) repeat-x}
+.content_textarea{width:634px;height:102px;border:#ddd solid 1px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/text_bg.jpg?xcv=2251be5d48) repeat-x}
+.content_sub{width:114px;height:23px;background:url(../Images/detail/detail.png) -137px -80px no-repeat;cursor:pointer;border:none;}
+.productExplain_title{height:28px;border-bottom:#eee solid 1px;}
+.productExplain_title span{background:url(/focalpricetest1/es/static.focalprice.com/Images/list/listtabs.jpg?xcv=2251b968e3) repeat-x;height:28px;padding:0 15px;line-height:28px;color:#114EA6;display:inline-block}
+.WholeSales{float:left}
+.pro_abs{width:320px;}
+.SalesT{width:410px;}
+.tablewarp{clear:both;background-color:#ccc;}
+/*Qestions & Answers*/
+.qa_title{height:auto; overflow:hidden;display:block;}
+.qa_list{border:#ddd solid 1px;padding:15px;margin-top:10px;}
+.qa_list .asked{word-break:break-all;clear:both;}
+.qa_list .answers{border:#f1e0c6 solid 1px;background:#fffbf5;padding:10px 15px;height:auto;overflow:hidden;word-break:break-all}
+.qa_list .answers span{display:block}
+.qa_search,.ask_a_question{height:27px;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2351b968e8) no-repeat;}
+.qa_search{width:66px;border:none;background-position:-334px -259px;cursor:pointer;}
+.ask_a_question{display:inline-block;background-position:-281px -287px;width:119px;}
+/*tags_con*/
+.tags_con,.tags_list{height:auto;overflow:hidden}
+.tags_con{border-top:#ddd solid 1px;padding:10px 0px 5px 0px;margin-top:15px;width:936px;}
+.protags_list,#tags_list{height:auto;overflow:hidden}
+#hotprotags_list{width:960px;}
+#tags_list{width:810px;}
+#tags_list li,#hotprotags_list li{width:230px;height:auto;margin-right:10px;padding:3px 0;float:left;}
+#tags_list li a em,#allTags em,#totalCustomer_word em,.onlyt{color:#FF5A00}
+#tags_list li a em{font-size:11px;}
+/*Images-list*/
+.review_top_left{width:160px;margin-left:30px;height:auto;}
+.review_top_left{height:auto;padding:0 20px 0 0;}
+/*进度条*/
+span.progress_bar{width:100px;height:12px;background:url(/focalpricetest1/es/static.focalprice.com/Images/index/index.png?xcv=2351afe669) -300px 0 no-repeat;display:inline-block}
+span.progress_bar span{width:100px;height:12px;background:url(/focalpricetest1/es/static.focalprice.com/Images/index/progress_bar_active.png?xcv=2251b968e4) right 0 no-repeat;display:inline-block}
+span.progress_bar span.all100{background:url(/focalpricetest1/es/static.focalprice.com/Images/index/index.png?xcv=2351afe669) -300px -12px no-repeat;}
+/*customer Reviews*/
+.search_m,.search_m .search_m_l,.search_m .search_m_r{height:auto;overflow:hidden}
+.average_rating{border-bottom:#ddd solid 1px;padding:15px 0px;width:738px;}
+.average_rating .average_rating_l{width:228px;}
+.average_rating .average_rating_r{width:500px;}
+.view_search{border-bottom:solid #ddd 1px;margin:0 15px 15px 15px;padding:5px 0;height:28px;position:relative;z-index:50;}
+.view_search.view_search_add{margin:0 0px 5px 0;}
+.view_search .view_search_r{width:200px;height:28px;line-height:28px;float:right}
+.view_search_r a.prev,.view_search_r a.next{display:inline-block;background:#999;margin-top:6px;line-height:19px;width:39px;height:19px;float:right}
+.view_search_r a.next{background:#e5e5e5 url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=2251afe668) 35px -98px no-repeat;padding:0 5px;color:#0041A0}
+.view_search_r a.prev{margin-right:1px;background:#c4c4c4 url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=2251afe668) 0 -73px no-repeat;padding-left:10px;}
+.view_search_r a:hover{text-decoration:none;color:#000}
+.create_review{width:203px;height:28px;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2351b968e8) 0 -50px no-repeat;display:block;margin-top:25px;}
+.reviews_con{width:738px;/*border:#ddd solid 1px;*/background:#fff;overflow:hidden;height:auto}
+.reviews_list.noborder{border:none;padding-left:20px;}
+.reviews_con .reviews_list .reviews_list_m.pl220{padding-right:220px;position:relative;width:460px;}
+.reviews_list_m.pl220 .price_star{width:200px;height:69px;background:#FFF;border:#f6f6f6 solid 1px;position:absolute;right:20px;top:0px;}
+.price_star dl{width:180px;padding:6px 10px 10px 10px;}
+.price_star dl dd{height:17px;float:left;line-height:17px;}
+.price_star dl dd span.s_txt{width:100px;text-align:right;float:left;display:inline-block;height:17px;line-height:17px;}
+#star1,#star2,#star3{display:inline-block;width:60px;margin-top:3px;margin-left:5px;}
+.rater-star{position:relative;list-style:none;margin:0;padding:0;background-repeat:repeat-x;background-position:left top;}
+.rater-star-item,.rater-star-item-current,.rater-star-item-hover{position:absolute;top:0;left:0;background-repeat:repeat-x;}
+.rater-star-item{background-position:-100% -100%;}
+.rater-star-item-hover{background-position:left bottom;cursor:pointer;}
+.rater-star-item-current{background-position:left center;}
+.list_sort{position:relative;padding-right:12px;height:28px;line-height:28px;}
+.list_sort em{position:absolute;width:7px;height:4px;background:#666;right:2px;top:12px;background:url(../Images/detail/smenu_ico.gif) 0 0 no-repeat}
+.list_sort a{display:inline-block;padding:0 15px 0 8px;position:relative;z-index:4;}
+.list_sort a span{width:7px;height:4px;background-position:-1px -52px;position:absolute;right:5px;top:12px;}
+.list_sort a.active{border:#ddd solid 1px;border-bottom:none;background:#FFF;top:-1px;left:-1px;}
+.list_sort .sortByMenu{position:absolute;z-index:11;left:49px;z-index:3;top:27px;padding:8px 10px;border:#ddd solid 1px;display:none;background:#FFF}
+.list_sort .sortByMenu a{display:block;color:#666;height:19px;line-height:19px;width:170px;}
+.list_sort .sortByMenu a:hover{color:#000;}
+.list_sort a:hover{color:#333}
+.d_wsdeal{display:inline-block;width:76px;height:16px;font-size:0;background:url(../Images/detail/detail.png) -131px -369px no-repeat;margin:0 5px;}
+#question_answer_body{padding:15px;border:#eee solid 1px;margin-top:15px;}
+.Videos_show ul{overflow:hidden;zoom:1;}
+.Videos_show ul li{float:left;margin-right:16px;margin-top:15px;height:155px;}
+.Videos_show ul li img{width:135px;height:100px;border:#ddd solid 1px;margin-bottom:10px;}
+.rcaption{width:120px;overflow:hidden;white-space:nowrap;color:#003366;font-size:11px;}
+.Videos_show{padding-left:15px;}
+/*控制滚动 background:#CCC;filter:alpha(opacity=20);-moz-opacity:0.2;-khtml-opacity:0.2;opacity:0.2;*/
+.pro_tabs{padding-left:23px;}
+.pro_tabs.haveContent{position:relative}
+.pro_tabs .propic_prev,.pro_tabs .propic_next{width:20px;height:30px;position:absolute;top:70px;z-index:2;cursor:pointer}
+.pro_tabs .propic_prev{left:10px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/propic_prev.jpg?xcv=2251b96df9) no-repeat;}
+.pro_tabs .propic_next{right:10px;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/propic_next.jpg?xcv=2251b96dfa) no-repeat;}
+.pro_tabs .items.alsobought{position:relative;height:186px;width:9998px;overflow:hidden}
+.alsobought_warp,.alsoLike_warp{position:relative;height:226px;width:900px;overflow:hidden;}
+.items.alsobought,.items.alsoLike{position:absolute;top:0;left:0;height:186px;width:9998px;overflow:hidden}
+.pageDiv .alsobought_next,.pageDiv .alsobought_prev,.pageDiv .alsoLike_next,.pageDiv .alsoLike_prev,.pageDiv{width:20px;height:30px;float:left;cursor:pointer}
+.pageDiv{margin-top:70px;overflow:hidden}
+.pageDiv .alsobought_next,.pageDiv .alsoLike_next{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/propic_next.jpg?xcv=2251b96dfa) no-repeat;width:20px;height:30px;}
+.pageDiv .alsobought_prev,.pageDiv .alsoLike_prev{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/propic_prev.jpg?xcv=2251b96df9) no-repeat;width:20px;height:30px;}
+.pageDiv .alsobought_next.disableClass,.pageDiv .alsoLike_next.disableClass{background:url(../Images/detail/detail.png) -198px -397px no-repeat;width:20px;height:30px;}
+.pageDiv .alsobought_prev.disableClass,.pageDiv .alsoLike_prev.disableClass{background:url(../Images/detail/detail.png) -177px -397px no-repeat;width:20px;height:30px;}
+/*min-login*/
+.re_table{width:800px;margin:20px 0 0 232px;height:auto;overflow:hidden}
+.re_table.m0{margin:0 auto;width:582px;}
+.re_table.mb45{margin-bottom:45px;}
+.re_table thead th{font-weight:normal;padding-bottom:20px;}
+.re_table td.loginTable_l{width:150px;padding:0 5px 0 0;}
+.re_table td.pb10{padding-bottom:10px;}
+.re_table td.loginTable_l em{color:#c20000;font-size:11px;}
+.re_table td.col_m{width:260px;padding:0;}
+.reg_txt{width:255px;padding:4px 0 0 5px;line-height:25px;margin:0;height:21px;border:#ddd solid 1px;background:url(/focalpricetest1/es/static.focalprice.com/Images/common/common.png?xcv=2251afe669) 0 0 no-repeat;}
+.reg_txt.w175{width:175px;}
+
+#tooptip{height:35px;width:100%;width:500px;margin:5px auto 0 auto;}
+.reg_txt.focus{border:#ffb552 solid 1px;}
+.abs_1{margin-top:10px;}
+.Card_images{width:279px;height:32px;background:url(/focalpricetest1/es/static.focalprice.com/images/footer_ico.jpg?xcv=2351afe66a) 0 0 no-repeat;}
+/*Product_EnlargeImages*/
+#pro_enlarge_top{width:980px; margin:0px auto; border-bottom:#ddd solid 1px; padding:15px 0;}
+#pro_enlarge_top h1{ font-size:14px; color:#000000; padding:10px 0px;}
+#pro_enlarge_top h1 a{ color:#014590; text-decoration:underline}
+#pro_enlarge_top .pro_large_related .pro_large_worldwide{width: 170px;padding-left: 40px;color: #56A600;background: url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=2251afe668) 25px -279px no-repeat;}
+#pro_enlarge_top .pro_large_related{ padding-top:10px; line-height:32px;}
+#pro_enlarge_footer{clear: both; width:980px; margin:0 auto; line-height: 40px;border-top: 1px solid #E0E3E4;text-align: center;padding-bottom: 10px; font-size:11px;}
+#pro_enlarge_body{ width:980px; margin:0 auto;}
+#proThis_img{ width:860px; padding:30px 59px; position:relative}
+#ThisImg{ position:relative; z-index:2; width:860px; height:666px;}
+#proThis_img .ThisImg_Prev_Warp,#proThis_img .ThisImg_Next_Warp{position:absolute; cursor:pointer; width:430px; height:666px; top:30px; z-index:5;}
+#proThis_img .ThisImg_Prev_Warp{left:59px;}
+#proThis_img .ThisImg_Next_Warp{right:59px;}
+#proThis_img .ThisImg_Prev_Warp .ThisImg_Prev,#proThis_img .ThisImg_Next_Warp .ThisImg_Next{width:34px; height:34px; position:absolute; top:50%; margin-top:-17px;background: url(/focalpricetest1/es/static.focalprice.com/images/detail/pro_ico.png?xcv=2251b968e2) 0 0 no-repeat; display:none}
+#proThis_img .ThisImg_Prev_Warp .ThisImg_Prev{background-position: 0 -77px; left:0px;}
+#proThis_img .ThisImg_Next_Warp .ThisImg_Next{background-position: 0 -114px; right:0px;}
+
+#proMore_simg{border-bottom:#ddd solid 1px; padding:15px 40px; width:902px; margin:0 auto;}
+.lh32{line-height:32px;}
+.h32{ height:32px;}
+
+#pager{ margin-top:10px; font-size:12px;overflow:hidden; }
+#pager .myPager{color:#061339; float:right;color:#fff}
+#pager .myPager a{background:#ddd;color:#000;display:block;float:left;margin-right:2px;height:22px;line-height:22px;padding:0 8px;}
+#pager .myPager a span{background:none;color:#000;display:block;height:22px;line-height:22px;padding:0px;}
+#pager .myPager span{background:#eee;color:#999;display:block;float:left;margin-right:2px;height:22px;line-height:22px;padding:0 8px;}
+#pager .myPager a:hover{background:#0041a0;text-decoration:none}
+#pager .myPager a:hover span{background:none;color:white;}
+#pager .myPager span.on{background:#eee;color:#999;display:block;float:left;margin-right:2px;height:22px;line-height:22px;padding:0 8px;}
+#pager .myPager a.current{background:#0041a0;color:#FFFFFF;}
+
+/*v4 update*/
+.color_items{clear:left; width:415px;}
+.color_items li{width:45px;height:45px;margin-right:15px;background:#ddd; float:left;border:1px solid #D78D24;}
+.pro_attribute a{text-decoration:none; margin-left:10px;padding:5px 10px;border: dashed 1px #D78D24;color:#D78D24;}
+.pro_attribute a.active,.pro_attribute a:hover{background:#d78d24;color:#fff;padding: 5px 10px;position:relative;}
+.pro_attribute a.outof {border: 1px dashed #CCC;color: #CCC;position:relative;}
+.pro_attribute a.outof:hover {background-color: #FFF;}
+.outof_tip{background: #fff;background: rgba(255, 255, 255, 0.9);border: 1px solid #EEE;border: 1px solid rgba(255, 255, 255, 0.2);line-height: 1.5em;display: none;border-radius: 10px;position: absolute;top:-46px;width:70px;left: -20px;color: #c20000;padding: 10px;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);}
+.location{position:relative;}
+.focal_share{width:150px; height:20px; position:absolute; right:0;top:6px}
+.focal_share a{width:21px;height:20px; margin-left:5px; float:right; background:url(../images/detail/detail.png?xcv=2251b968e2) 0 0 no-repeat; text-indent:-9999em;}
+.focal_share a.f{background-position:-275px -462px;}
+.focal_share a.t{background-position:-302px -462px;}
+.focal_share a.p{background-position:-328px -462px;}
+.focal_share a.g{background-position:-354px -462px;}
+.focal_share a.e{background-position:-380px -462px;}
+.pro_right .diggs span {font-size: 11px;color: #FF5A00;font-family: arial;}
+#result_review{width: 738px;}
+#reviews_Data .reviews_list .reviews_list_mIndex.w460 {width: 328px;}
+#latest_reviews .reviews_list.w680{width: 536px;}
+#latest_reviews .reviews_list .reviews_list_mIndex {width: 326px;}
+.questmore{line-height: 150%;margin-top: 10px;}
+.reviewmore{line-height: 150%;margin-top: 10px;}
+.scroll_images{width: 711px;height:200px;position: relative;z-index: 1;overflow: hidden;margin: 15px;padding:0;}
+
+.w1200 .detail_info_right{width:630px;}
+.w1200 .SalesT{width:630px;}
+.w1200 .description ul.tabs{width:990px;}
+.w1200 .explain_l{width:990px;}
+.w1200 .description .description_m{width:948px;}
+.w1200 .detail_list{width:988px;}
+.w1200 .average_rating{width:958px;}
+.w1200 .detail_list .detail_list_m{width:890px;}
+.w1200 .reviews_list .reviews_list_m,.reviews_list .reviews_list_mIndex{width:750px;margin-right:0px;}
+.w1200 .reviews_con{width:958px;}
+.w1200 .pro_right_m{display:block}
+.w1200 #result_review{width: 958px;}
+.w1200 #latest_reviews .reviews_list.w680{width: 728px;}
+.w1200 #latest_reviews .reviews_list .reviews_list_mIndex {width: 518px;}
+.w1200 .scroll_images{width: 920px;}
+
+/*130617产品滚动*/
+.pre_btn{background:url(/focalpricetest1/es/static.focalprice.com/Images/hover_btnbg.png?xcv=0) no-repeat 0 0; width:30px; height:29px; position:absolute; top:50%; margin-top:-65px; left:5px; z-index:100; cursor:pointer;}
+.pre_end{background:url(/focalpricetest1/es/static.focalprice.com/Images/hover_btnbg.png?xcv=0) no-repeat 0 -29px;}
+.next_btn{background:url(/focalpricetest1/es/static.focalprice.com/Images/hover_btnbg.png?xcv=0) no-repeat -32px 0; width:30px; height:29px; position:absolute; top:50%; margin-top:-65px; right:8px; z-index:100; cursor:pointer;}
+.next_end{background:url(/focalpricetest1/es/static.focalprice.com/Images/hover_btnbg.png?xcv=0) no-repeat -32px -29px;}
+.scroll_control{position:relative; width:968px; height:275px; overflow:hidden;}
+.scroll_items{position:absolute;}
+.bfd_product_inner .scroll_control .itembox{margin-right:32px;}
+.w1200 .bfd_product_inner .scroll_control .itembox{margin-right:20px;}
+
+/*130617*/
+#bfd_product_featured h2{font-size:14px; color:#666; font-weight:700;}
+#bfd_product_featured .bfd_product_inner{padding-top: 1px; margin-top: 10px; height:295px;}
+
+#summary{padding:8px 0;clear: both;line-height: 150%;}
+
+/*combo deal*/
+.combo_deal{padding:20px 0; border-bottom:1px solid #ccc; overflow:hidden; margin-bottom:20px;}
+	.combo_pro_list{width: 800px;}
+	.combo_pro_list li{width:150px; height:160px; float:left;}
+	.combo_img{position:relative;}
+	.combo_img img{border:1px solid #ccc;}
+	.combo_img a:hover img{border:1px solid #F60;}
+	.combo_name{height:32px; overflow:hidden;}
+	.combo_price{padding-top:8px;}
+	.combo_price em,.combo_tatol_price em{color:#c20000;}
+	.combo_price s{padding-left:10px;}
+	.combo_pro {width: 550px;height: 180px;overflow: hidden;float: left;}
+	.w1200 .combo_pro_list li.combo_add{width:65px;}
+	.w1200 .combo_pro{width:840px;}
+	.combo_total{float:right;width: 150px;}
+	.combo_choose a.active{color:#114EA6;}
+	.combo_qty input{width: 42px;margin-bottom:7px}
+	.combo_choose{cursor:pointer; padding:0 5px;}
+	.combo_add_to_cart{padding-top:2px;}
+	a.blue_add_to_cart{background:#d78d24; padding:0 20px; line-height:28px; display:inline-block; color:#fff;}
+	.combo_choose{padding:10px 0;}
+	.combo_pro_list li.combo_add{background:url(/focalpricetest1/es/static.focalprice.com/images/combo_add.jpg?xcv=0) no-repeat center 40px; width:36px;}
+	.this_quantity{background:#F60; position:absolute; right:1px; bottom:1px; padding:2px 3px; color:#fff;}
+	.combo_deal h3 {font-weight: 700;font-size: 14px;}
+	.combo_save{margin: 7px 0;}

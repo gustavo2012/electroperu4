@@ -1,0 +1,200 @@
+.shipping_address td .cc20,.shipping_method .price.cc20{color:#c20000;}
+.shop_warp{width:968px;height:60px;}
+h1.shopptitle{height:45px;line-height:45px;}
+.shop_table{border-collapse:collapse;table-layout:fixed;width:980px;}
+.shop_table th{border:#ddd solid 1px;background:#f5f5f5;padding:10px 0;font-weight:normal;color:#000}
+.shop_table td{border:#ddd solid 1px;padding:10px;}
+.shop_table .item_name a{color:#09318b;text-decoration:none;font-size:11px;}
+.shop_table .item_name a:hover{text-decoration:underline}
+.photo{width:45px;height:35px;border:#ddd solid 1px;margin:0 auto;}
+.td_text{width:31px;height:19px;line-height:19px;border:1px solid #dfdfdf;background:none;text-align:center;}
+.td_text.selected{border:1px solid #F95800;}
+.update_item .btn_update{color:#0099ea;cursor:pointer;text-decoration:underline;white-space:normal;border:0;background:none;font-size:11px;padding:0;margin:0}
+.Odd{/*background:#fff8eb;*/color:#666;}
+.Even{background:#fff;color:#666;}
+.Selected{/*background:#fff3f3;*/color:#999;}
+.Over{background:#f5ffeb;color:#000;}
+.remove_item,.ShopCart_addtoWishlist{width:18px;height:18px;display:inline-block;overflow:hidden;line-height:50px;}
+.remove_item{background:url(../images/cart_remove.gif?xcv=2451b968e7) no-repeat;}
+.ShopCart_addtoWishlist{background:url(../images/cart_add.gif?xcv=2451b968e7) no-repeat;}
+.shipping_method{width:1198px;height:200px;border:#ddd solid 1px;}
+.shipping_method.noborder{border-top:none}
+.shipping_method.h50{height:50px;}
+.shipping_method .shipping_method_l{width:945px;height:auto;overflow:hidden;padding:10px 0 10px 10px;}
+.shipping_method .price{width:150px;height:35px;margin-right:85px;background:#f5ffeb;line-height:35px;text-align:center;border-left:#ddd solid 1px;border-right:#ddd solid 1px;}
+.shipping_method .price.pt125{padding-top:160px;padding-bottom:5px;}
+.shipping_method .price.pt110{padding-top:116px;padding-bottom:20px;}
+.price .price_shippingfree{height:30px;line-height:30px;}
+.shipping_method .price.h30,.lh40{height:30px;padding:10px 0;}
+.shipping_method_error{background:#fff9f1;color:#f95800;border:#ffb552 solid 1px;height:auto;overflow:hidden;padding:8px 10px;margin-bottom:2px;}
+.shipping_method_list{margin:10px 0 10px 0;height:auto;overflow:hidden}
+.shipping_method_list li{padding:1px 10px;}
+.select_div{padding-left:30px;height:auto;overflow:hidden;line-height:30px;}
+.shipping_method_l h1{height:20px}
+.lh30{height:30px;line-height:30px;}
+.apply_coupon{background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2651b968e8) -80px -148px no-repeat;width:117px;height:27px;border:none;cursor:pointer; float:left;}
+.form_div .focal_txt {float:left}
+#CancelCoupon{display:inline-block;line-height:80px;overflow:hidden;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2651b968e8) -401px -148px no-repeat;width:117px;height:27px;border:none;cursor:pointer; float:left;margin-right:10px;}
+#Coupons{ line-height:30px;}
+.form_div{height:30px;margin-top:10px;}
+.note_txt{width:600px;line-height:16px;float:left}
+.note_first{display:block;height:20px;width:40px;color:#000;float:left}
+.grandlinks{background:url(/focalpricetest1/es/static.focalprice.com/Images/myaccount/account_ico.png?xcv=2351b968e8) 0 -243px no-repeat;padding-left:15px;font-size:11px;}
+
+.spAlsobought.mb20{margin-bottom:20px;}
+.paymentMethod_div{height:auto;overflow:hidden;padding-bottom:30px;width:980px;}
+.paymentMethod_div .paymentMethod_div_l{width:626px;height:auto;overflow:hidden}
+.paymentMethod_div .paymentMethod_div_l .payment_explain{width:381px;height:auto;margin-top:5px;}
+.paymentMethod_div .paymentMethod_div_l .payment_explain li{float:left;width:380px;line-height:14px;}
+.paymentMethod_div .paymentMethod_div_l .payment_explain li span{display:block;float:left;width:20px;height:35px;}
+.paymentMethod_div .paymentMethod_div_r{width:325px;height:auto;text-align:center;}
+.continue_shopping{width:144px;height:28px;display:block;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2651b968e8) -136px -287px no-repeat}
+/*2012-02-19*/
+.paymentMethod_div .paymentMethod_div_l .certified_body{height:55px;width:215px;}
+.paymentMethod_div .paymentMethod_div_l .certified_body li{float:left}
+.credit_card2,.uncredit_card2{width:143px;height:37px;background:url(/focalpricetest1/es/static.focalprice.com/Images/payment_btn.gif?xcv=2451b968e7) 0 0 no-repeat;cursor:pointer;display:block;float:right}
+.uncredit_card2{background:url(/focalpricetest1/es/static.focalprice.com/Images/payment_btn.gif?xcv=2451b968e7) 0 -37px no-repeat;}
+.paymentMethod_div .paymentMethod_div_l h5.shop_with{height:25px;line-height:25px;font-style:italic;}
+.paypal_links2,.unpaypal_links2{width:144px;height:37px;display:block;margin:10px auto 10px auto;background:url(../Images/payment_ico.jpg?xcv=2751b968e7) 0 0 no-repeat;}
+.paypal_links2{background-position:-168px -11px;}
+.unpaypal_links2{background-position:-168px -72px;}
+.webmoney,.unwebmoney{width:144px;height:37px;display:block;background:url(/focalpricetest1/es/static.focalprice.com/Images/index/payment_ico.jpg?xcv=2751b968e7) 0 -90px no-repeat;overflow:hidden;line-height:120px;}
+.webmoney{background-position:-12px -132px;}
+.unwebmoney{background-position:-168px -132px;}
+.total_wrap{width:980px;margin:15px 0px 0px 0px;position:relative}
+.total_wrap li{height:25px;line-height:25px;text-align:right;clear:right}
+.total_wrap li.addBorder1{border-bottom:#bcbcbc solid 1px;}
+.total_wrap li.addBorder2{border-bottom:#d9d9d9 solid 1px;height:33px;line-height:33px;}
+.total_wrap li span{display:block;width:100px;height:25px;}
+.total_wrap li div.w140{width:140px;}
+.total_wrap .shopPoints_Div{position:absolute;left:5px;bottom:10px;font-size:12px;font-weight:normal}
+.shopempty{padding:25px 45px;line-height:21px;}
+.pt20l45{padding:0 0 20px 45px;}
+h2.border_top{border-top:#ddd solid 1px;}
+.shipping_address{width:100%;border-collapse:collapse;}
+.shipping_address td{padding:5px;}
+.credit_details{width:100%;height:auto;overflow:hidden}
+.credit_details .credit_details_l{width:720px;height:auto}
+.credit_details .credit_details_r{width:460px;padding-top:10px;}
+.debitcards{width:225px;height:106px;background:url(/focalpricetest1/es/static.focalprice.com/Images/index/index.png?xcv=2451afe669) -175px -93px no-repeat;}
+#failedTip{border:#ffb552 solid 1px;background:#fff9f1;padding:6px 10px;color:#fd7a05;width:200px;}
+.confirm_payment{width:138px;height:27px;display:block;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2651b968e8) 0 -316px no-repeat}
+.order_subtotal{padding:0 0 0 15px;border-bottom:#ddd solid 1px;height:50px;margin-bottom:15px;line-height:50px}
+.order_number{padding:15px 60px;border-bottom:#ddd solid 1px;}
+.order_number dd{text-align:left;height:25px;line-height:25px;}
+.order_number dd span{width:120px;height:25px;line-height:25px;float:left;text-align:right;padding-right:5px;}
+.gotomy_account,.continue_shopping_v2{width:138px;height:27px;background:url(/focalpricetest1/es/static.focalprice.com/Images/links/links.png?xcv=2651b968e8) 0 -344px no-repeat;display:block;}
+.continue_shopping_v2{background-position:-139px -316px;}
+.gotomy_account.mr30{margin-right:30px;}
+.complete_body{padding:20px 60px 50px 60px;}
+.complete_tltle{height:50px;line-height:50px;}
+.complete_tltle.border_bot{border-bottom:#ddd solid 1px;}
+.complete_foot{padding:20px 0 0 70px;}
+.complete_foot.pl150{padding-left:150px;}
+.failed_body{line-height:19px;padding:50px 0 0 70px;}
+#moreMoney{background:url(/focalpricetest1/es/static.focalprice.com/Images/common/orange_ico.gif?xcv=2351ca111f) 60px 5px no-repeat;line-height:15px;}
+
+/*shopcart*/
+.shopping_sku{width:95px}
+.shopping_Image{width:80px}
+.shopping_UnitPrice{width:120px}
+.shopping_Quantity{width:150px}
+.shopping_TotalPrice{width:150px}
+.shopping_Operation{width:85px}
+/*modify*/
+.shoppingList,.shoppingList_inner,.shoppingList_inner_l{height:auto;}
+.shoppingList{width:978px;border:#ddd solid 1px;z-index:40;}
+.shoppingList.noborder,.shoppingList.noborderT{border-top:none;}
+.shoppingList .shoppingList_inner{border-right:#ddd solid 1px;margin-right:85px;position:relative;width:892px;}
+.shoppingList .shoppingList_inner .shoppingList_inner_l{background:#FFF;width:726px;border-right:#ddd solid 1px;padding:13px 0px 13px 15px;}
+.shoppingList_inner .shoppingList_inner_l .shipping_method_con{width:948px;position:relative;z-index:50;width:946px;/**/
+width:946px\9;/*all ie*/
+width:946px\0;/*ie8*/
++width:946px;/*ie7*/
+_width:946px;/*ie6*/
+}
+:root .shoppingList_inner .shoppingList_inner_l .shipping_method_con{width:946px\9;position:relative;}
+/*ie9*/
+@media all and (min-width:0px){.shoppingList_inner .shoppingList_inner_l{width:946px\0;position:relative;}
+}
+/*opera*/
+@media screen and (-webkit-min-device-pixel-ratio:0){.shoppingList_inner_l{width:948px;position:relative;}
+}
+/*chrome and safari*/
+.shipping_method_innercon{width:710px;float:left;height:auto;}
+.shipping_method_innercon h2{background:url(/focalpricetest1/es/static.focalprice.com/images/shopping_title_ico.jpg?xcv=2451b03f48) 0 5px no-repeat;padding-left:10px;height:15px;line-height:15px;}
+.shoppingList .shoppingList_inner .shippingcost{position:absolute;right:0px;width:150px;text-align:center;top:48%;}
+.shippingselect{padding:5px;}
+.shippingprice{position:absolute;right:247px;top:48%;}
+.grandprice{position:absolute;right:5px;top:14px;color:#c20000;width:150px;text-align:center}
+/*Payment Tips*/
+#payment_Tips{width:508px;height:auto;margin:15px;}
+#payment_Tips ul{border-top:#ddd solid 1px;padding:10px 30px 15px 30px;height:auto;overflow:hidden}
+#payment_Tips ul.success{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/success.jpg?xcv=2351ca111f) 5px 12px no-repeat;}
+#payment_Tips ul.issue{background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/issue.jpg?xcv=2351ca111f) 5px 12px no-repeat;}
+#payment_Tips ul li{width:410px;padding:3px 0;background:url(/focalpricetest1/es/static.focalprice.com/Images/detail/list_ico.gif?xcv=2451afe668) 0 -93px no-repeat;padding-left:15px;}
+.shipping_method_innercon .coupon_tip{left:340px;z-index:11;top:130px;width:320px;height:auto;position:absolute;top:52px;color:#666;background:#FFF8EB;border:1px solid #F4C978;padding:10px;display:none;z-index:50;}
+.coupon_tip li{padding:2px;font-size:11px;}
+.coupon_error{height:20px;line-height:20px}
+
+/*CouponSignIn*/
+.couponSignIn,.couponSignIn_inner{width:550px;height:274px;margin-bottom:15px;}
+.couponSignIn table{width:550px;}
+.wholesale_dress{background:url(/focalpricetest1/es/static.focalprice.com/Images/myaccount/dress.gif?xcv=2351ca111f) no-repeat 19px 15px #f4f4f4;margin-top:33px;padding:24px 33px 0 97px;font-family:Arial,Helvetica,sans-serif;}
+.wholesale_dress h3{font-size:18px;font-weight:bold;color:#373538;height:29px;line-height:29px;border-bottom:1px dashed #cccccc;}
+.wholesale_dress .coupon_code{padding:13px 0 0 2px;line-height:24px;font-size:15px;font-weight:bold;color:#373538;}
+.wholesale_dress .text{color:#373538;font-size:14px;line-height:18px;padding-left:2px;}
+.wholesale_dress .coupon_more{padding:20px 0 10px 2px;height:24px;line-height:24px;}
+.wholesale_dress .coupon_more a{font-size:12px;font-weight:bold;color:#114ea6;text-decoration:underline;margin-right:35px;}
+/*Order Complete*/
+#Payment_Header{height:102px;background:url(/focalpricetest1/es/static.focalprice.com/Images/payment/topbg.png?xcv=2351be5dfb) 0 0 repeat-x;width:100%;overflow:hidden}
+.Payment_HeaderIn{width:950px;height:90px;margin:10px auto 0px auto;overflow:hidden;}
+.Payment_HeaderIn .logo{width:196px;height:60px;margin-top:25px;float:left;display:block;background:url(/focalpricetest1/es/static.focalprice.com/Images/payment/focalprice_logo.png?xcv=2351be5dfa) -40px -25px no-repeat;line-height:180px;overflow:hidden;}
+.Payment_HeaderIn .top_r{width:488px;height:42px;float:right;margin-top:35px;font-family:arial;background:url(/focalpricetest1/es/static.focalprice.com/images/payment/speedbg.jpg?xcv=2351be5dfa) 0 bottom no-repeat;margin-right:85px;}
+.Payment_HeaderIn .top_r span{display:block;height:39px;line-height:18px;float:left;width:162px;}
+.Payment_HeaderIn .top_r span.CurrentTxt{color:#7da429;font-weight:bold}
+.Payment_HeaderIn .VeriSign{width:110px;height:55px;float:right;margin-top:15px;background:url(/focalpricetest1/es/static.focalprice.com/images/payment/VeriSignPic.jpg?xcv=2351be5dfa) 0 0 no-repeat}
+.orderComplete_Body{width:700px;margin:35px auto;border:#d2d2d2 solid 1px;padding:10px;}
+.orderComplete_Body h5 a{text-decoration:underline;}
+.orderComplete_Body h6{padding:10px 0px 5px 35px;}
+.orderComplete_Mian{width:602px;background:#f6f6f6;border:#c6c6c6 solid 1px;margin:15px auto 20px auto;padding:10px 15px;}
+.orderComplete_number{padding:15px 60px;border-bottom:#c5c5c5 dotted 1px;}
+.orderComplete_number.noborder{border-bottom:none}
+.orderComplete_number dd{text-align:left;height:21px;line-height:21px;}
+.orderComplete_number dd span{width:120px;height:21px;line-height:21px;float:left;text-align:right;padding-right:5px;}
+.orderComplete_foot{height:auto;overflow:hidden;padding-left:60px;padding-bottom:20px;padding-top:15px;}
+.gotomy_account2,.continue_shopping_v3{width:126px;height:29px;background:url(/focalpricetest1/es/static.focalprice.com/Images/payment/pay_btn.jpg?xcv=2351c82fb3) no-repeat;display:block;}
+.continue_shopping_v3{background-position:-127px 0px;}
+.gotomy_account2.mr10{margin-right:10px;}
+.Subtotal_lh24{line-height:24px;}
+
+/*Order Combine*/		
+.mt2 { margin-top:2px;}
+.mt7 { margin-top:7px;}
+.ml30 { margin-left:30px;}
+.plr14 { padding:0 14px;}
+.under_10 {width:978px; height:41px; overflow:hidden; border:1px solid #ffb552; margin:10px auto 0; background-color:#fff9f1;}
+.additems { background:url("/focalpricetest1/es/static.focalprice.com/Images/shoppingcart/icon.gif?xcv=2351b99808") no-repeat 11px 6px; padding-left:34px; line-height:21px; color:#fb5800;}
+.under10_btn a { background:url("/focalpricetest1/es/static.focalprice.com/Images/shoppingcart/under10.gif?xcv=2451b968e7") no-repeat; width:169px; height:24px; overflow:hidden;display:block}
+
+.process_demo #shippingAmount{padding-left: 52px;line-height: 60px;}
+.process_demo{line-height: 30px; border: 1px solid #ddd; border-top: none;}
+.process_demo #ShippingMethod{width: 566px;padding-right:5px}
+.process_demo .estimated_ship{width: 150px; border-right: 1px solid #ddd; text-align: right;line-height: 60px;}
+.paychoosediv{padding:20px 20px 0 20px;width: 300px;margin: 0 auto;}
+.paychoosediv a{float: left;}
+
+.w1200 .process_demo #ShippingMethod{width:786px;}
+.w1200 .process_demo .estimated_ship{line-height:30px;}
+.w1200 .process_demo #shippingAmount{line-height:30px;}
+.w1200 .shop_table{width:1200px;}
+.w1200 .under_10{width:1198px;}
+.w1200 .shoppingList{width:1198px;}
+.w1200 .shoppingList .shoppingList_inner{width:1112px;}
+.w1200 .shipping_method_innercon{width:880px;}
+.w1200 .shoppingList .shoppingList_inner .shoppingList_inner_l{width:946px;}
+.w1200 .total_wrap{width:1200px;}
+.w1200 .paymentMethod_div{width:1200px;}
+.w1200 .paymentMethod_div .paymentMethod_div_l{width:750px;}
+.w1200 .Payment_HeaderIn{width:1200px;}
+.w1200 .Payment_HeaderIn .top_r{margin-right: 220px;}

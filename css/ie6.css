@@ -1,0 +1,12 @@
+﻿/*menu*/
+.menu li.newarrivals{width:80px;}
+.menu li.topsellers{ width:70px}
+.menu li.deals{width:40px}
+.menu li.clearance{width:97px}
+.menu li.gifts{width:90px;}
+.menu li#dealMenu{width:70px}
+/*menu*/
+.search_txt{width:315px;}
+.search_txt input{width:315px;}
+.w1200 .search_txt{width:555px;}
+.w1200 .search_txt input{width:555px;}
